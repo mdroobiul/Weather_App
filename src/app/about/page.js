@@ -7,60 +7,69 @@ export default function AboutPage() {
           Our Mission
         </span>
         <h1 className="text-4xl font-extrabold text-white mt-2 mb-8">
-          About SkyPulse
+          About Robi Weather App
         </h1>
         <div className="bg-slate-900/50 border border-slate-800 rounded-2xl p-8 space-y-4 text-slate-300 leading-relaxed backdrop-blur-xl">
           <p>
-            SkyPulse is a Next.js application built with performance and modern UI
-            aesthetics in mind. It pulls direct data feeds from Open-Meteo API to
-            present live climate metrics clearly.
+            Robi Weather App is a modern, lightweight weather forecasting platform engineered with Next.js and Tailwind CSS. It pulls direct, reliable data feeds from the Open-Meteo API to present live climate metrics clearly and without clutter.
           </p>
           <p>
-            Engineered using Next.js App Router and Tailwind CSS, this project
-            showcases clean code modularity, client-side fetching patterns, and
-            responsive glassmorphism interfaces.
+            Designed with performance, responsiveness, and a sleek glassmorphism interface in mind, our goal is to deliver an intuitive and powerful weather tracking experience right to your browser.
           </p>
         </div>
       </div>
 
-      {/* About WeatherApp Section - Single Div */}
+      {/* Platform Features Section */}
       <section className="bg-slate-900/50 border border-slate-800/80 rounded-2xl p-8 space-y-6 backdrop-blur-xl">
         <div>
           <h2 className="text-2xl md:text-3xl font-extrabold text-white">
-            About WeatherApp
+            What Robi Weather App Offers
           </h2>
           <p className="text-cyan-400 text-sm font-medium mt-1">
-            A modern weather experience built with care.
+            Everything you need to stay weather-aware, built with precision.
           </p>
         </div>
 
         <hr className="border-slate-800/80" />
 
         <div className="space-y-6 text-slate-300">
+          {/* Live Weather Analytics */}
           <div>
             <h3 className="text-lg font-bold text-white mb-2 flex items-center gap-2">
-              <span>🚀</span> Fast & Reliable
+              <span>⚡</span> Real-Time Weather Analytics
             </h3>
             <p className="text-sm leading-relaxed text-slate-400">
-              WeatherApp is a lightweight, fast, and reliable weather application built using modern web technologies. Our goal is to deliver accurate weather information without clutter or unnecessary complications.
+              Get instant access to vital weather metrics including live temperature, exact local date & time, relative humidity, and surface-level wind speed (km/h) updated seamlessly.
             </p>
           </div>
 
+          {/* 24-Hour Graph Feature */}
           <div>
             <h3 className="text-lg font-bold text-white mb-2 flex items-center gap-2">
-              <span>🌐</span> Global Data Source
+              <span>📈</span> 24-Hour Temperature Trend Graph
             </h3>
             <p className="text-sm leading-relaxed text-slate-400">
-              We leverage the Open-Meteo API, which aggregates data from over 30 national weather services worldwide. This ensures you always get the most accurate and up-to-date weather data for any location.
+              Visualize hourly weather progressions effortlessly. Powered by Recharts interactive area charts, users can track temperature fluctuations and trends over a complete 24-hour cycle.
             </p>
           </div>
 
+          {/* Global Coverage & City Selector */}
           <div>
             <h3 className="text-lg font-bold text-white mb-2 flex items-center gap-2">
-              <span>⚡</span> Modern Tech Stack
+              <span>🌍</span> Global Coverage & Dynamic City Selector
             </h3>
             <p className="text-sm leading-relaxed text-slate-400">
-              Built with Next.js for optimal performance and Tailwind CSS for a clean, fully responsive design that works beautifully on any device.
+              Easily switch between major world locations like Dhaka, London, New York, Tokyo, and Sydney using our interactive dropdown menu to fetch accurate forecast data instantly.
+            </p>
+          </div>
+
+          {/* 100% Free & No Sign-Up */}
+          <div>
+            <h3 className="text-lg font-bold text-white mb-2 flex items-center gap-2">
+              <span>💎</span> 100% Free & Open Access
+            </h3>
+            <p className="text-sm leading-relaxed text-slate-400">
+              Built completely free for everyone. No API keys required, no mandatory sign-ups, and zero hidden costs—backed by reliable data aggregated from over 30 national weather services worldwide.
             </p>
           </div>
         </div>

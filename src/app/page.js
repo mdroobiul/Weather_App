@@ -257,6 +257,15 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* About Section inside Home */}
+      <section className="py-8 px-4 text-center max-w-2xl mx-auto space-y-2">
+        <h2 className="text-xl md:text-2xl font-bold text-white tracking-tight">
+          About Robi Weather
+        </h2>
+        <p className="text-slate-400 text-xs md:text-sm leading-relaxed">
+          Robi Weather delivers real-time meteorological metrics with high-precision Open-Meteo forecasting endpoints. Designed with speed, elegance, and clarity in mind.
+        </p>
+      </section>
     </div>
   );
 }
